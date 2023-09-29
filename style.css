@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Hurmit;
+  src: url(fonts/HurmitNerdFontMono-Regular.otf);
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url(fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+  text-align: center !important;
+  background-color: #2d4356 !important;
+  color: white !important;
+}
+
+h1 {
+  margin: 20px;
+  font-family: Comfortaa;
+}
+
+#password {
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: Hurmit;
+  font-size: large;
+  width: 20.5rem;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+#genPasswd:hover {
+  background-color: #2e8b57;
+}
+
+#copy:hover {
+  background-color: #008b8b;
+}
+
+#genPasswd {
+  font-family: Hurmit;
+  font-size: 2rem;
+  width: 15rem;
+  text-align: center;
+  margin: 10px 5px;
+  background-color: #00ff7f;
+}
+#copy {
+  margin: 10px 5px;
+  font-family: Hurmit;
+  font-size: 2rem;
+  width: 10.5rem;
+  text-align: center;
+  background-color: #00ced1;
+}
+#passLen {
+  font-family: Hurmit;
+  width: 5rem;
+  text-align: center;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: large;
+  border: none;
+  background-color: white;
+}
