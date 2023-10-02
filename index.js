@@ -10,7 +10,7 @@ const characters =
 const everyCharacter = characters.split("");
 
 const randomCharacter = function () {
-  return Math.floor(Math.random() * everyCharacter.length) + 1;
+  return Math.round(Math.random() * everyCharacter.length);
 };
 
 function passGen() {
